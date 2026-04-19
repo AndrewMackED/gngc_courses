@@ -2,7 +2,7 @@
 
 > [!NOTE] Semester Overview
 > Project One - Escape Room
-> Project Two - Smart Watering System
+> [[Project Two - Smart Watering System]]
 
 ## Semester Plan
 ### Term One
