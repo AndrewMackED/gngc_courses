@@ -1,6 +1,6 @@
 # GNGC Information Technology Course Content
 
-Welcome to LCARS - the central location for all GNGC IT subject course content!
+Welcome to LCARS (*Learning Content Assessment Retrieval System*) - the central location for all GNGC IT subject course content!
 
 | Semester | [[Robotics and Mechatronics]]             | [[Digital Technologies (Programming)]] | [[Digital Technologies (Game)]] | [[Networking and Security]]                |
 | -------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
