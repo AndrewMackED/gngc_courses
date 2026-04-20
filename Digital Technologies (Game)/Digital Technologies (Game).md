@@ -1,6 +1,6 @@
 Welcome folks, to the coolest course because we straight up make *GAMES*
 
-> [!DANGER]- Lookout sir!
+> [!NOTE]- BTW!
 > We also make you do documentation. Sorry.
 
 
