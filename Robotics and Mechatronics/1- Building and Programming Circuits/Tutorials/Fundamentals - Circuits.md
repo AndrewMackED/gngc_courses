@@ -3,10 +3,13 @@
 **Focus:** Ohm's Law, Power, and Relays 
 **Goal:** Students understand _why_ microcontrollers need help driving heavy loads and learn to wire a relay safely.
 
+> [!tip] Technical Terms!
+> Don't forget to consult the [[Glossary of Terms - Robotics]] if there are words you're not sure of in this document! 
+
 ## Lesson 1: Ohm's Law & Microcontroller Limits
     
 
-> [!hint] Ohm's Law
+> [!info] Ohm's Law
 > - Ohm's Law ($V = I \times R$) - Voltage is equal to Current times Resistance
 > - Power ($P = V \times I$).
 
