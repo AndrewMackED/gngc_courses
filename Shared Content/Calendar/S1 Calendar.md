@@ -65,10 +65,12 @@
 
 ### School Events - Week 16
 *May 25 - May 29*
+**Tuesday 26th** - Careers / VET Expo
+
 
 ### School Events - Week 17
 *June 1 - June 5*
-**Monday** - Reconciliation Day Public Holiday
+**Monday 1st** - Reconciliation Day Public Holiday
 
 ### School Events - Week 18
 *June 8 - June 12*
