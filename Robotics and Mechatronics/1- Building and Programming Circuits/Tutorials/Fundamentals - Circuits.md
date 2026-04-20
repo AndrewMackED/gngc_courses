@@ -97,4 +97,57 @@ The code is also fairly straight forward.
 - Use a 6V battery pack to power your output but remember, you'll need to combine your work of Ohm's Law to ensure you've got enough resistance in the circuit.
 - Show your working / calculations in your notes!
 
-## Lesson 3: Kirchhoff's Voltage Law
+## Lesson 3: BOUNUS ROUND! Kirchhoff's Voltage Law
+
+Kirchhoff’s Voltage Law is another of these fundamental laws. It states that “for a closed loop series path the algebraic sum of all the voltages around any closed loop in a circuit is equal to zero.” This is due to the fact that in a closed circuit, no voltage should be lost.
+
+...should be. As you’ll learn from time to time while this should be the case, as you stare at the servo motor that isn’t moving or the LED that isn’t lit and wonder why it’s likely because there’s an issue with your circuit that will require both a multimeter and an understanding of Kirchhoff’s 2nd Law (yes, there is another one) to fix.
+
+It’s time for some maths. Go through the information present on [this website](https://www.electronics-tutorials.ws/dccircuits/kirchhoffs-voltage-law.html), take some notes and then answer the following discussion questions below.
+
+These are discussion questions, which means you can 100% have a conversation with the class members around you about your answers before writing them down.
+
+### Discussion Questions
+
+1. Conservation of Energy. What is that about and why does it matter for circuit design?
+    
+2. Applications for Kirchhoff’s Law. When do you need to consider it? Why is it beneficial?
+    
+3. What are the implications for circuits running in parallel? All the examples are in series, what do you think you’d need to consider?
+    
+##### Tasks:
+
+1. Design and setup a basic circuit using a breadboard, jumper cables and a variety of resistors. Set the voltage to 5V-12V and then use a multimeter to test the connections and see if Kirchhoff’s Law applies. Record your circuit diagram, testing and equations for your experiment.
+
+## Bonus BONUS ROUND - Voltage Dividers!
+
+Now it’s time to talk about Voltage Dividers.
+
+Occasionally (really, more often than not), you need to turn a large voltage into a smaller one. One of the fundamental ways to do this is with a series of resistors in a circuit running off an input voltage to create the required output voltage. This is called a Voltage Divider.
+
+Here are some examples of these in circuit diagrams.
+
+![[voltage_divider_example.png]]
+
+These examples are [100% Stolen](https://learn.sparkfun.com/tutorials/voltage-dividers/all)
+
+The resistor closest to the input voltage is R1, and the resistor closest to the ground is R2. The voltage drop across R2 is called Vout and that’s the divided voltage which this circuit is designed to make.
+
+### Voltage Divider Equation
+
+Memorise this!!
+
+![[voltage_divider_equation.png]]
+
+Let’s discuss:
+
+1. What does the equation state?
+    
+2. How can you derive / prove the equation?
+    
+##### Then, let’s put this into practice:
+
+1. Try and create a voltage divider to turn a 6V input into a lower input. Design your circuit, do some maths and hook up an LED to the Vout. Use a multimeter to measure the LED voltage to see if you’re correct!
+2. Potentiometers...let’s talk about those. They’re pretty much variable voltage dividers. Have a look at the following diagram of a potentiometer and discuss how this works. (Pin 1 is the Vin, Pin 3 is the GND, Pin 2 is the wiper/Vout.
+
+![[potentiometer_voltagediv.png]]
