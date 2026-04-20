@@ -98,7 +98,6 @@ To prove your learning in practical application, you must submit:
 3. **The Data Log:** The actual `.csv` or `.txt` file pulled directly from your MicroSD card and uploaded to Google Classroom (Evidence that your data logger successfully recorded over time).
     
 4. **Project Description:** Some documentation about your build, operating instructions and a breakdown of it's functionality.
-    
 
 > [!Warning]- Evidence Guide Specifics for this Task:
 > - **Proof of Logic (Schematics):** You must include a clear circuit diagram showing how the Relay isolates the high-current pump from the low-current Arduino.
