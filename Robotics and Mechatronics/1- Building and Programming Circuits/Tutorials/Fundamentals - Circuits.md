@@ -30,7 +30,7 @@ A couple of words to explain there. **Proportional** is a fancy way of saying "e
 
 To test your understanding of Ohm’s Law, try to calculate the current of a 12V circuit with two 330Ω resistors manually, and then use a [calculator](https://www.allaboutcircuits.com/tools/ohms-law-calculator/) to confirm your findings.
 
-### Challenge 
+##### Challenge 
 Calculate the current draw of a 5V DC pump vs. the maximum output of an Arduino digital pin (~40mA). Prove mathematically that wiring a pump directly to the board will fry the microcontroller.
 
 
@@ -43,9 +43,30 @@ Calculate the current draw of a 5V DC pump vs. the maximum output of an Arduino 
 
 ### Relay Circuit Design
 
+Relays are the answer to the question: _"so, how do I power this giant 12v pump from a 5V microcontroller?"_
+
+And it's not just pumps, it's any system you need to power which exceeds the limits of the Arduino.
+
+> [!NOTE]- See here for how relays work!
+> A relay is essentially an electrically operated switch that allows a low-power signal to safely control a much higher-power circuit. At its core, it consists of an electromagnet (a coil of wire wrapped around a metal core) and a set of mechanical contacts. When a small electrical current—such as a 5-volt signal sent from a microcontroller like an Arduino—passes through the coil, it energises the electromagnet and generates a temporary magnetic field. This magnetic field is the driving force behind the relay's operation, acting as the invisible "hand" that will flip the switch.
+> 
+> Once this magnetic field is generated, it attracts a small, movable metal plate called an armature. As the armature is pulled toward the electromagnet, it physically pushes or pulls the electrical contacts of the secondary, high-power circuit, forcing them to snap together (turning the heavy-duty device on) or spring apart (turning it off). Because the low-power control side and the high-power load side only interact via this magnetic attraction and are physically separated by space, the relay provides complete electrical isolation. This crucial separation is what allows a delicate electronic board to safely control high-voltage devices, like a water pump or a heater, without the risk of electrical feedback destroying the sensitive control circuitry.
+
+### Relay Circuit
+
 ![[How-To-Use-A-Relay-With-Arduino-728x410.jpg]]
 
-Here you'll 
+As you can see from the diagram above, relays are connected to both the Arduino and the external power supply, but the target of the relay never touches the Arduino.
+
+The Arduino still needs its own power to operate and the relay _isolates_ the Arduino's power from the external and often larger power source needed for the external output.
+
+- Connect the Arduino's 5V and GND to the relay, along with a single digital pin. (this does not need to be a PWM pin)
+- Connect the Positive pin from the Power Source to the other side of the relay, and then the Ground of the Power source to the Ground of the output.
+- Connect the voltage of the external output to the Relay.
+
+The Positive of both the Output and the Power Source are running through the Relay because this is the point of the relay. When the pin from the Arduino runs **high** it will make a connection between both those positive leads and thus complete the circuit, powering the output.
+
+### Relay Code
 
 ```arduino
 const int relayPin = 4; // Pin connected to the relay IN pin
@@ -53,21 +74,27 @@ const int relayPin = 4; // Pin connected to the relay IN pin
 void setup() {
   pinMode(relayPin, OUTPUT);
   // Keep relay OFF initially (assuming active-low module)
-  digitalWrite(relayPin, HIGH); 
+  digitalWrite(relayPin, LOW); 
 }
 
 void loop() {
-  digitalWrite(relayPin, LOW);  // Turn relay ON
+  digitalWrite(relayPin, HIGH);  // Turn relay ON
   delay(2000);                 // Wait 2 seconds
-  digitalWrite(relayPin, HIGH); // Turn relay OFF
+  digitalWrite(relayPin, LOW); // Turn relay OFF
   delay(2000);                 // Wait 2 seconds
 }
 ```
 
+The code is also fairly straight forward.
 
+- Setup the Relay Pin as an **Output**
+- Run the Relay pin **LOW** in setup to ensure that it begins off when the Arduino powers up.
+- In the Loop, run the relay **HIGH** whenever you wish to activate it. The control structures you setup to determine when it runs are entirely up to you.
 
-## Lesson 3: WHS & "Wet Zone" Briefing
-    
-**Theory:** Risk Assessment matrix for "Project Oasis". Brainstorm the hazards of mixing conductive liquids (water) with electronics.
-        
-**Practical:** Establish class rules for the "wet zones" (e.g., Arduinos must be elevated, pumps submersed before power is applied).
+##### Challenge
+
+- Build the circuit above, and attach an LED to demonstrate the functionality of the relay.
+- Use a 6V battery pack to power your output but remember, you'll need to combine your work of Ohm's Law to ensure you've got enough resistance in the circuit.
+- Show your working / calculations in your notes!
+
+## Lesson 3: Kirchhoff's Voltage Law
