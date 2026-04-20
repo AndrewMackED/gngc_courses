@@ -6,7 +6,7 @@
 
 **Note:** Your design processes, circuit calculations, and testing logs must be submitted in your separate **Evidence Guide**.
 
-> [!CAUTION] How to Use This Document
+> [!CAUTION]- How to Use This Document
 > 
 > _Read this document before you start prototyping._ 
 > * Use **Section 2** to understand the specific learning goals for your enrolled course level (T or A).
@@ -36,11 +36,11 @@ In Task 1, you learned how to process immediate digital and analog inputs. In Ta
 
 **For Tertiary (T) Students:**
 
-- **Power & Actuation (Theory):** Your ability to understand and document the physics of relays and inductive loads (why we can't power a DC pump directly from an Arduino pin).
+- **Power & Actuation (Theory):** Your ability to understand electrical / circuit theory and document the physics of relays and inductive loads (why we can't power a DC pump directly from an Arduino pin).
     
 - **Advanced Protocols:** Your ability to configure and troubleshoot the SPI communication protocol required for the MicroSD module.
     
-- **Algorithmic Optimization:** Your ability to write logic that uses multiple data points to make "smart" decisions (e.g., _only_ watering when soil is dry AND the temperature/light levels indicate it isn't the middle of the day, to prevent evaporation).
+- **Algorithmic Optimisation / Modularity:** Your ability to write logic that uses multiple data points to make "smart" decisions (e.g., _only_ watering when soil is dry AND the temperature/light levels indicate it isn't the middle of the day, to prevent evaporation).
     
 
 ## 3. Technical Requirements & Variation
@@ -93,7 +93,7 @@ To prove your learning in practical application, you must submit:
 
 1. **The Physical Prototype:** The Arduino, sensors, and pump setup demonstrated to your teacher (Evidence of your construction and WHS safety).
     
-2. **The Source Code:** Your `.ino` file submitted to Google Classroom (Evidence of your control structures, SPI setup, and relay logic).
+2. **The Source Code:** Your `.ino` file (or Arduino Online Link) submitted to Google Classroom (Evidence of your control structures, SPI setup, and relay logic).
     
 3. **The Data Log:** The actual `.csv` or `.txt` file pulled directly from your MicroSD card and uploaded to Google Classroom (Evidence that your data logger successfully recorded over time).
     
