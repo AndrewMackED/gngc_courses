@@ -6,7 +6,7 @@
 
 **Note:** Your design processes, circuit calculations, and testing logs must be submitted in your separate **Evidence Guide**.
 
-> [!CAUTION]- How to Use This Document
+> [!info]- How to Use This Document
 > 
 > _Read this document before you start prototyping._ 
 > * Use **Section 2** to understand the specific learning goals for your enrolled course level (T or A).
@@ -14,8 +14,6 @@
 > - Use **Section 3** as a checklist while you build to ensure your system meets the technical expectations.
 >     
 > - Use **Section 5** to ensure you hand in the correct evidence of your practical application.
-
-    
 
 ## 1. Context: How this fits into our Course
 
@@ -78,16 +76,16 @@ Your system must keep a record of what it does.
 
 ## 4. Task Conditions
 
-- **Time:** You will have [Insert Number] weeks of in-class time to prototype, solder, and finalize your system.
+- **Time:** You will have _6 weeks_ of in-class time to prototype, solder, and finalise your system.
     
 - **Resources:** Full access to the Robotics Lab. You will be provided with Arduino Unos, SD Modules, Relays, 5V DC Pumps, and silicone tubing.
     
-- **Collaboration:** While you may test your pumps in shared "wet zones" in the lab, your circuit, code, and Evidence Guide must be entirely your own independent work.
+- **Collaboration:** While you may test your pumps in shared "wet zones" in the lab, your circuit, code, and documentation must be entirely your own independent work.
     
 
 ## 5. What Counts As Evidence (Submission)
 
-**Due:** End of class on [Insert Date].
+**Due:** Physical Project must be handed in at the Lab before 3:30pm on _Tuesday, 2nd of June_. Digital Work is due on the same day before _10pm_
 
 To prove your learning in practical application, you must submit:
 
@@ -99,7 +97,19 @@ To prove your learning in practical application, you must submit:
     
 4. **Project Description:** Some documentation about your build, operating instructions and a breakdown of it's functionality.
 
-> [!Warning]- Evidence Guide Specifics for this Task:
+> [!tldr]- Evidence Guide Specifics for this Task:
 > - **Proof of Logic (Schematics):** You must include a clear circuit diagram showing how the Relay isolates the high-current pump from the low-current Arduino.
 >     
 > - **Impact & Ethics (WHS):** Your Risk Assessment **must** explicitly address the hazards of mixing conductive liquids (water) with electronics, and detail the control measures you took to prevent damage or injury.
+
+<br>
+
+## Rubric
+
+|Category|A (Highly Effective)|B (Effective)|C (Satisfactory)|D (Partial)|E (Limited)|
+|---|---|---|---|---|---|
+|**Physical Build & Integration**|Exceptional structural integrity; innovative placement of components for durability. Seamlessly integrates mechanical parts (pumps/servos) into a professional, water-resistant housing.|Strong structural design; components are securely mounted and organized. Clear consideration of protecting electronics from moisture and environmental factors.|Functional physical build; components are attached and the system operates. Basic consideration of safety and component organization is evident.|Minimal structure; components are loosely attached or disorganized. Significant risk of environmental damage to the electronics.|Build is incomplete or unstable; components are not secured, leading to mechanical failure.|
+|**Circuitry & Power Management**|Complex circuits with zero feedback risk. Explicit application of **Kirchhoff’s/Ohm’s laws** to calculate and verify power distribution across multiple loads (e.g., pump vs microcontroller).|Accurate circuit construction with neat wiring. Demonstrates understanding of voltage requirements for different components to ensure stable power delivery without brownouts.|Functional circuit with mostly organized wiring. Basic understanding of polarity and power requirements (VCC/GND) is evident to ensure components receive appropriate voltage.|Circuit is functional but messy. Poor power management leads to inconsistent performance or component overheating.|Circuit is non-functional or unsafe. Incorrect wiring leads to high hardware risk or "fried" components due to voltage neglect.|
+|**Algorithm & Programming**|Sophisticated code structure using advanced logic (e.g., non-blocking timers). Highly optimized and readable with comprehensive documentation of the control loop.|Well-structured code with clear logic and accurate sensor calibration. Uses appropriate control structures (if/else, loops) effectively. Good documentation.|Functional code that successfully reads sensors and triggers actuators. Logic is straightforward and achieves the basic automation goals.|Code is partially functional but contains logical errors. Hard-coded values make it difficult to adapt. Minimal comments.|Code fails to compile or does not achieve basic automation. Lack of logical structure or variables.|
+|**Data Capture & System Analysis**|Captures high-fidelity data and uses **statistical analysis or visualization** to prove system effectiveness (e.g., precise moisture maintenance over time). Evaluates system performance against technical benchmarks.|Captures accurate data over multiple cycles. Uses this data to verify that the system is responding correctly to environmental changes and adjusts thresholds accordingly.|**Captures accurate real-time data** from sensors (e.g., moisture %, water level). Data correctly reflects the state of the environment during operation.|Data capture is inconsistent or contains significant noise. Limited ability to explain what the collected data represents.|No data capture implemented, or the data collected bears no relevance to the physical state of the planter.|
+|**System Testing & Refinement**|Comprehensive testing log with rigorous edge-case analysis. Clear evidence of iterative technical improvements based on systematic troubleshooting and data feedback.|Systematic testing approach. Identified and resolved technical issues during the build. Evidence of a "trial and error" refinement process.|Evidence of basic testing and troubleshooting. Fixed common issues (e.g., sensor sensitivity) to reach a functional state.|Limited testing performed. Issues were identified but not fully resolved. Minimal evidence of refinement after the first prototype.|Little to no evidence of testing. The final system remains in a "broken" or highly inconsistent state.|
