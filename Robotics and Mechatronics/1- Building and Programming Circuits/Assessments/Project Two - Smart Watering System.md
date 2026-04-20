@@ -1,5 +1,5 @@
 # Assessment Task 2: Automated Smart Planter (Data & Actuation)
-![[pot_plant.png|200]]
+![[watering_sys_banner.png]]
 
 **Course:** Robotics & Mechatronics (Combined T & A) 
 **Unit:** Unit 1 (Building & Programming Circuits) 
