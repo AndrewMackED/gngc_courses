@@ -13,46 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/1. Raycasts - The Basics.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1. Raycasts - The Basics"
-            }
-          },
-          {
-            "id": "c181cc58b33d1df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/3. Interaction Part 1 - Raycasts and Clicking!.md",
+                "file": "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 1. Project Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Interaction Part 1 - Raycasts and Clicking!"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5aaac57631d0579c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f12030b574acb953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/3. Interaction Part 1 - Raycasts and Clicking!.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Interaction Part 1 - Raycasts and Clicking!"
+              "title": "Part 1. Project Setup"
             }
           }
         ]
@@ -222,12 +188,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "f12030b574acb953",
+  "active": "b7fde8e49eb61f0a",
   "lastOpenFiles": [
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/folder_setup.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/table_job.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/table_machine.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/create_venv.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/starting_ui.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/table_user.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 0. Assignment Breakdown.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/website_heirarchy.png",
+    "README.md",
+    "Untitled Diagram.drawio.png",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 1. Project Setup.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 2. Creating Users.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Intro to Flask and Database Integration.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/Robotics Job Logger ERD.png",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/1. Raycasts - The Basics.md",
     "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/3. Interaction Part 1 - Raycasts and Clicking!.md",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images/Animation.gif",
-    "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images/my example.png",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 6. Template Inheritance and a base.html.md",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets",
@@ -236,12 +216,7 @@
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 1. Getting Started.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 5. Processing HTTP Requests.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 4. Looping and Populating Cards.md",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/images/pokedexCards.gif",
-    "Pasted image 20260823144045.png",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/images/bulba-card.png",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 3. Pokedex Examples.md",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/images/flask_run_terminal.png",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/images/Registeel.png",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/images",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 0. What is Flask.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Unit 2 Home Page.md",
