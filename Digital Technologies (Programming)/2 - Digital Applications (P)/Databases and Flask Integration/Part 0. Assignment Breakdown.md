@@ -27,13 +27,18 @@ When we toured the Workshop, Jim had a few requests and pieces of advice:
 ## Machine Details
 Here's the table with all of our machines basic specs for the database! You don't need to have the ID's match this way, it doesn't matter which one has which ID, as long as it makes sense in your system!
 
-|**machine_id**|**name**|**type**|**model**|**working_dimensions**|**status**|
-|---|---|---|---|---|---|
-|**1**|3D Printer 1|3D Printing|Creality Ender 3 V3 SE|220 x 220 x 250 mm|Available|
-|**2**|3D Printer 2|3D Printing|Creality Ender 3 V3 SE|220 x 220 x 250 mm|Available|
-|**3**|3D Printer 3|3D Printing|Creality Ender 3 V3 SE|220 x 220 x 250 mm|Available|
-|**4**|Big Printer|3D Printing|Creality K1 MAX|300 x 300 x 300 mm|Available|
-|**5**|Laser Cutter|Laser Cutting|CO2 Laser Cutter|600 x 300 mm|Available|
+| **machine_id** | **name**     | **type**      | **model**              | **working_dimensions** | **status** |
+| -------------- | ------------ | ------------- | ---------------------- | ---------------------- | ---------- |
+| **1**          | 3D Printer 1 | 3D Printing   | Creality Ender 3 V3 SE | 220 x 220 x 250 mm     | Available  |
+| **2**          | 3D Printer 2 | 3D Printing   | Creality Ender 3 V3 SE | 220 x 220 x 250 mm     | Available  |
+| **3**          | 3D Printer 3 | 3D Printing   | Creality Ender 3 V3 SE | 220 x 220 x 250 mm     | Available  |
+| **4**          | Big Printer  | 3D Printing   | Creality K1 MAX        | 300 x 300 x 300 mm     | Available  |
+| **5**          | Laser Cutter | Laser Cutting | CO2 Laser Cutter       | 600 x 300 mm           | Available  |
 
+## Database Structure
+Here's my ERD that I'll be working from for the project! Please enjoy the watermark so I will know if you just copy mine into your supporting document :)
 
+![[Robotics Job Logger ERD.png]]
 
+## Website Heirarchy
+![[website_heirarchy.png]]
