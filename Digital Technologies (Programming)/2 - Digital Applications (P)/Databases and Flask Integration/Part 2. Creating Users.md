@@ -56,7 +56,7 @@ This is well worth doing now to make your life easier while testing! Head over t
 ```
 
 Now, from any page of your website you should be able to access the Home/Index page and the create_user page!
-
+![[create_user_route_setup.gif]]
 You should probably run your app and make sure you can easily navigate to the create_user page before you go any further.
 
 ## 2. Creating the Form (HTML)
