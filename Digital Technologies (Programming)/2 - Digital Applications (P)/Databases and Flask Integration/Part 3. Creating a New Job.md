@@ -74,9 +74,9 @@ So what do we do? Take a look at the code below:
 ```html
 <label for="user">User</label><br>
 <select id="user" name="user">
-	{% for u in users %}
-		<option value="{{u.id}}">{{u.name}}</option>
-	{% endfor %}
+    {% for u in users %}
+        <option value="{{u.id}}">{{u.name}}</option>
+    {% endfor %}
 </select>
 ```
 

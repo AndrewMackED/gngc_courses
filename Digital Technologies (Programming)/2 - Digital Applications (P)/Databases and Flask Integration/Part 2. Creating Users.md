@@ -112,7 +112,7 @@ We already created the basic version of the route that displays the html templat
 ```python
 @app.route("/create_user", methods=["GET", "POST"])
 def create_user():
-	if request.method == "POST":
+    if request.method == "POST":
         new_user = User(
             name = request.form["name"],
             student_id = request.form["student_id"],
@@ -130,5 +130,12 @@ The code above does the following when the user submits the form:
 - Creates a new `User` object, with the name, student_id, and build the student's email address based on the student_id
 - Adds the new `User` object to the database
 - Redirects the user to the home page of the website once they're done.
+
+### Add some more Flask imports
+We've just introduced three more flask functions that we'll need to import at the top of our code. Please update the first line of your app.py file to the following!
+```python
+from flask import Flask, render_template, redirect, request, url_for
+```
+
 
 User creation is all sorted! You can go right ahead and check this functionality. You'll need to open DB Browser to make sure the new user is listed in the database, so go and verify this after you test that the form works!
