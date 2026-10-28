@@ -30,11 +30,36 @@ We are also going to want to get the Job table data. Since we're going to be dis
 
 So let's talk about **Queries**. 
 
+Queries are what we use in Databases to extract the data that we need. So far, we have just used basic queries, 
 
 
 
 
+### Basic Queries
+Basic queries are really simple, we've done them before in fact!
+These will just get all of the entries in a database table, without any sorting (just sorted in primary key order)
 
-## Basic Queries
+```python
+machines = Machine.query.all()
+users = User.query.all()
+```
 
 ## Sorting and Filtering
+If we want to do more advanced queries, we need to know about **sorting** and **filtering**
+
+### Sorting
+If we want to organise by date for example, that could be really useful!
+```python
+jobs = Job.query.order_by(Job.date_created.desc()).all()
+```
+
+### Filtering
+Filtering is also really useful, and we're going to use this so sort outr jobs by whether they're completed or not!
+```python
+jobs_completed = Job.query.filter(Job.complete == true).all()
+```
+
+We can even stack these to get both filtered and sorted results!
+```python
+jobs = Job.query.filter(Job.complete == true).order_by(Job.date_created.desc()).all()
+```

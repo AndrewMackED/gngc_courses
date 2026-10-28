@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 2. Creating Users.md",
+                "file": "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 4. Views and Database Queries.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Part 2. Creating Users"
+              "title": "Part 4. Views and Database Queries"
             }
           }
         ]
@@ -190,6 +190,13 @@
   },
   "active": "b7fde8e49eb61f0a",
   "lastOpenFiles": [
+    "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/7. Game Managers.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 4. Views and Database Queries.md",
+    "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/3. Interaction Part 1 - Raycasts and Clicking!.md",
+    "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images/qrcode_docs.google.com.png",
+    "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/2. Basic Puzzle Patterns - Light Puzzle.md",
+    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 2. Creating Users.md",
+    "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images/nav_agent_health.gif",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 1. Project Setup.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 0. Assignment Breakdown.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/create_user_route_setup.gif",
@@ -201,13 +208,9 @@
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/table_user.png",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/website_heirarchy.png",
     "README.md",
-    "Untitled Diagram.drawio.png",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Part 2. Creating Users.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/Intro to Flask and Database Integration.md",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images",
-    "Digital Technologies (Programming)/2 - Digital Applications (P)/Databases and Flask Integration/images/Robotics Job Logger ERD.png",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/1. Raycasts - The Basics.md",
-    "Digital Technologies (Game)/2 - Digital Applications (G)/3D Player Interactions/3. Interaction Part 1 - Raycasts and Clicking!.md",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets/images",
     "Digital Technologies (Programming)/2 - Digital Applications (P)/Intro to Flask/Flask Intro - 6. Template Inheritance and a base.html.md",
     "Digital Technologies (Game)/2 - Digital Applications (G)/Topic 2 - Clicking on Moving Targets",
