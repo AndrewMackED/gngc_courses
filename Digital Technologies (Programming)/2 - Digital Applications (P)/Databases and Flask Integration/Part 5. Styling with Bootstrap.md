@@ -71,7 +71,8 @@ Moving on to the other classes we can see in our code:
 - The "navbar-nav" class holds the links to our different web pages and the "me-auto" in this class put our links on the left side of our nav bar, if we want the links to be on the top right of our screen we could replace this with "ms-auto"
 - The "nav-link" class styles the individual links 
 
-**Note: You may have added more links to your navigation bar or may be using different names for your pages, make sure to include all pages in your navigation bar with the correct links! Keep this in mind when copying code for this whole section.**
+>[!WARNING]
+>**You may have added more links to your navigation bar or may be using different names for your pages, make sure to include all pages in your navigation bar with the correct links! Keep this in mind when copying code for this whole section.**
 ## 3. Making our Nav Bar Responsive
 Currently our nav bar changes it's layout when our screen changes sizes but our links are still visible. We want to change our nav bar so that when the screen is small the nav bar becomes collapable, this keeps its small and tucked away while still being useful.
 
@@ -82,9 +83,9 @@ The first step will be adding our toggle button this is what we can press to exp
 </button>
 ```
 How does this code work:
-- ```navbar-toggler``` styles our button to look like a Bootstrap navigation toggle button 
+- `navbar-toggler` styles our button to look like a Bootstrap navigation toggle button 
 - ```data-bs-toggle="collapse"``` lets Bootstrap know that this button will control a collapsible element
-- ```data-bs-target="#navbarContent"``` tells Bootstrap that the button should show or hide an element called #navbarContent
+- ```data-bs-target="#navbarContent"``` tells Bootstrap that the button should show or hide an element called `navbarContent`
 - ```navbar-toggler-icon``` displays a menu icon on our button (the three horizontal lines)
 
 Next we want to make our navigation links collapsible. Our navbar links currently look like this:
