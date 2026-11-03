@@ -57,24 +57,38 @@ We can replace it with a Bootstrap navbar:
 	</div>
 </div>
 ```
-You can see that every element has the text "class =" inside of it. This is because Bootstrap uses these class names to apply styling to our elements. In our first line for example:
+You can see that every element has the text `class =` inside of it. This is because Bootstrap uses these class names to apply styling to our elements. In our first line for example:
 ```html 
 <nav  class="navbar navbar-expand-md bg-primary">
 ```
-"navbar" tells Bootstrap to format this section of the page as a nav bar. 
-The "navbar-expand-md" makes our page links show up horizontally across our nav bar and also handles the responsive design, telling Bootstrap that if the size of our screen is medium or larger to expand the navbar.
+`navbar` tells Bootstrap to format this section of the page as a nav bar. 
+The `navbar-expand-md` makes our page links show up horizontally across our nav bar and also handles the responsive design, telling Bootstrap that if the size of our screen is medium or larger to expand the navbar.
 In Bootstrap we use sm, md and lg to write how we want our page formatted for small, medium and large screens. This means we can make our site look different depending on the size of our screen.
 
 Moving on to the other classes we can see in our code:
-- The "container-fluid" class makes a section that fills the entire width of our screen.
-- The "navbar-brand" class is where we can put our website brand name. This makes our site more professional and consistent across the pages.
-- The "navbar-nav" class holds the links to our different web pages and the "me-auto" in this class put our links on the left side of our nav bar, if we want the links to be on the top right of our screen we could replace this with "ms-auto"
-- The "nav-link" class styles the individual links 
+- The `container-fluid` class makes a section that fills the entire width of our screen.
+- The `navbar-brand` class is where we can put our website brand name. This makes our site more professional and consistent across the pages.
+- The `navbar-nav` class holds the links to our different web pages and the `me-auto` in this class put our links on the left side of our nav bar, if we want the links to be on the top right of our screen we could replace this with `ms-auto`
+- The `nav-link` class styles the individual links 
 
 >[!WARNING]
 >**You may have added more links to your navigation bar or may be using different names for your pages, make sure to include all pages in your navigation bar with the correct links! Keep this in mind when copying code for this whole section.**
+
+To help us with setting up the content of our pages that extend the base.html, we want to replace:
+```html
+<div class="padding-left:16px">
+	{% block content %}{% endblock %}
+</div>
+```
+With:
+```html
+<div class="container-fluid">
+	{% block content %}{% endblock %}
+</div>
+```
+This wraps the content of any pages that use base.html (which is all of our pages) in a Bootstrap container that applies basic styling to the page content.
 ## 3. Making our Nav Bar Responsive
-Currently our nav bar changes it's layout when our screen changes sizes but our links are still visible. We want to change our nav bar so that when the screen is small the nav bar becomes collapable, this keeps its small and tucked away while still being useful.
+Currently our nav bar changes it's layout when our screen changes sizes but our links are still visible. We want to change our nav bar so that when the screen is small the nav bar becomes collapsible, this keeps its small and tucked away while still being useful.
 
 The first step will be adding our toggle button this is what we can press to expand and collapse our nav bar. Directly after our navbar-brand, add the following button:
 ```html
@@ -116,6 +130,7 @@ In our newly added div:
 Now let's see what it looks like on our webpage:
 
 ![[Responsive Navbar Demo.gif]]
+
 
 With all of the updates our base.html should look something like this: (**Please remember that this file may not have all of the pages as your own site so please do not blindly copy it**)
 ```html
