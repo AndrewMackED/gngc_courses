@@ -159,7 +159,7 @@ With all of the updates our base.html should look something like this: (**Please
 		</div>
 	</div>
 
-	<div  style="padding-left:16px">
+	<div  class="container-fluid">
 	{% block content %}{% endblock %}
 	</div>
 
