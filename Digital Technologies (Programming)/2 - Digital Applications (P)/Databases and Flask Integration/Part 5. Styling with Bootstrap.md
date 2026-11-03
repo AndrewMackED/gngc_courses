@@ -175,4 +175,5 @@ There is a lot of information and examples on the Bootstrap documentation, it ca
 There documentation for Navbars is [here](https://getbootstrap.com/docs/5.0/components/navbar) (Check out what you can do with Brands, Color Schemes and Placement)
 The documentation for Navs is [here](https://getbootstrap.com/docs/5.0/components/navs-tabs/) (Check out  the available styles section)
 ## 5. Showing Active Pages
-May do this later (Just uses variables from flask with Jinja to set active to true or false) makes it easier to see what page you're on
+
+We can use the `active` property for styling our nav bar to see what page we are currently on. I will leave this as an extension, as a hint we can uses variables from in Jinja and conditionals to implement this.
