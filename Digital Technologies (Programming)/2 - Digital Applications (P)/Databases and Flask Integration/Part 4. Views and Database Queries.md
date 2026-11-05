@@ -89,8 +89,6 @@ Now, we need to work out how we want to display all of this on the user's side. 
         <th>Date Logged</th>
         <th>Date Required</th>
         <th>Status</th>
-
-
     </tr>
     {%for j in jobs_pending%}
     <tr>
@@ -99,7 +97,7 @@ Now, we need to work out how we want to display all of this on the user's side. 
         <td>{{j.machine.name}}</td>
         <td>{{j.description}}</td>
         <td>{{j.material}}</td>
-        <td>{{j.date_logged}}</td>
+        <td>{{j.date_created}}</td>
         <td>{{j.date_required}}</td>
         <td>
             {%if j.complete%}
@@ -198,3 +196,20 @@ Here it is again, in full context of the code we already had.
 Ok, let's see it!
 ![[Mark_as_complete.gif]]
 Please pretend that the heading for the second section said "Completed", I noticed it too late...
+
+
+## A little QOL Addition
+Sometimes, the "Pending Jobs" list will actually be empty. It's rare! But it can happen. 
+![[no_pending_v1.png]]
+Let's add a little message to make it a bit nicer when it does:
+
+```html
+{% if jobs_pending%}
+	<!--INSERT THE WHOLE PENDING TABLE HERE-->
+{%else%}
+	<h2>No Pending Jobs!</h2>
+	<p>Go for a walk and get a coffee</p>
+{%endif%}
+```
+
+![[no_pending_v2.png]]
