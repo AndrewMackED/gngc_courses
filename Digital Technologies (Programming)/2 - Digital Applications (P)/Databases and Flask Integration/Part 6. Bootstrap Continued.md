@@ -93,6 +93,10 @@ to
 <textarea id="description" name="description" rows="4"  class="form-control mb-3"></textarea>
 ```
 We can remove the `cols="80"` from our `<textarea>` since Bootstrap handles the width of our text area now. 
+>[!TODO] Make sure you add `class="form-control mb-3"` to each of the following:
+>* Description
+>* Material
+>* Date
 
 ### Styling our Button:
 To style our submit button we just need to add `class="btn"` to it. So it would go from:
