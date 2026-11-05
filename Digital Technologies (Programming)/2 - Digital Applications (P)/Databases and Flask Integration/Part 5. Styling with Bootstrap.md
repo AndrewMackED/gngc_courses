@@ -1,4 +1,4 @@
-
+# Part 5. Styling with Bootstrap
 Now that we have our functionality complete we have to make our website look good. We are going to be using Bootstrap 5 for our styling.
 
 Bootstrap is a front-end development framework that provides a collection of pre-written CSS and JavaScript files to let us style our UI elements without having to write the styling from scratch.
